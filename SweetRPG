@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T13:54:15.757Z" agent="5.0 (Macintosh)" etag="yhLUagkBM8ZbwL6BvZ-q" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T14:34:38.397Z" agent="5.0 (Macintosh)" etag="zn095MzUzkvXVzeBzxvb" version="14.8.1" type="github">
   <diagram id="pKZ9d42EIQhx4D3ej5K5" name="Page-1">
-    <mxGraphModel dx="2058" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="410" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lUXr_MOfeq3nmSoOQjcQ-2" value="&lt;div&gt;Web proxy&lt;/div&gt;&lt;div&gt;(nginx)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
@@ -235,7 +235,7 @@
             <mxPoint x="960" y="865.5172413793102" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zMrTVmKu9lWlm60wVP0q-30" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Directory (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;/directory&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-30" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Directory (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;/api/session&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="838" y="440" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zMrTVmKu9lWlm60wVP0q-36" value="" style="endArrow=none;html=1;strokeColor=#000000;edgeStyle=entityRelationEdgeStyle;jumpStyle=arc;" edge="1" parent="1" source="zMrTVmKu9lWlm60wVP0q-3" target="zMrTVmKu9lWlm60wVP0q-30">
