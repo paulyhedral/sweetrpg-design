@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T14:34:38.397Z" agent="5.0 (Macintosh)" etag="zn095MzUzkvXVzeBzxvb" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T16:26:31.365Z" agent="5.0 (Macintosh)" etag="XOHRUDRgSrA1lZGn9mE3" version="14.8.1" type="github">
   <diagram id="pKZ9d42EIQhx4D3ej5K5" name="Page-1">
     <mxGraphModel dx="1482" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="lUXr_MOfeq3nmSoOQjcQ-4" value="&lt;div&gt;Service Discovery&lt;/div&gt;&lt;div&gt;(consul)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="880" y="-200" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-5" value="&lt;div style=&quot;font-size: 18px&quot;&gt;Profiles (Web)&lt;/div&gt;&lt;div&gt;/auth/login/auth0&lt;/div&gt;&lt;div&gt;/profiles/me[/*]&lt;/div&gt;&lt;div&gt;/profiles/&amp;lt;user&amp;gt;&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
+        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-5" value="&lt;div style=&quot;font-size: 18px&quot;&gt;Profiles (Web)&lt;/div&gt;&lt;div&gt;/auth/login/auth0&lt;/div&gt;&lt;div&gt;/auth/callback/auth0&lt;br&gt;&lt;/div&gt;&lt;div&gt;/profiles/me[/*]&lt;/div&gt;&lt;div&gt;/profiles/&amp;lt;user&amp;gt;&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="120" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lUXr_MOfeq3nmSoOQjcQ-6" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=none;edgeStyle=entityRelationEdgeStyle;" parent="1" source="lUXr_MOfeq3nmSoOQjcQ-2" target="lUXr_MOfeq3nmSoOQjcQ-5" edge="1">
@@ -396,6 +396,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="270" as="sourcePoint" />
             <mxPoint x="710" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-73" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Auth0&lt;/font&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-74" value="" style="endArrow=classic;html=1;strokeColor=#000000;edgeStyle=entityRelationEdgeStyle;jumpStyle=arc;" edge="1" parent="1" source="lUXr_MOfeq3nmSoOQjcQ-1" target="zMrTVmKu9lWlm60wVP0q-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="790" as="sourcePoint" />
+            <mxPoint x="240" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
