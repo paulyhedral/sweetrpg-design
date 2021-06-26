@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T03:26:42.180Z" agent="5.0 (Macintosh)" etag="CyRkWGavJWIvoydV-qsN" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T03:39:04.801Z" agent="5.0 (Macintosh)" etag="7BKqBb0f_mYS_fKS1B7N" version="14.8.1" type="github">
   <diagram id="pKZ9d42EIQhx4D3ej5K5" name="Page-1">
     <mxGraphModel dx="2058" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -211,11 +211,6 @@
             <mxPoint x="786.1290322580644" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zMrTVmKu9lWlm60wVP0q-52" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zMrTVmKu9lWlm60wVP0q-29">
-          <mxGeometry x="0.4528" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="zMrTVmKu9lWlm60wVP0q-31" value="" style="endArrow=classic;html=1;strokeColor=#000000;edgeStyle=entityRelationEdgeStyle;jumpStyle=arc;" edge="1" parent="1" source="lUXr_MOfeq3nmSoOQjcQ-9" target="zMrTVmKu9lWlm60wVP0q-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="750" as="sourcePoint" />
@@ -301,6 +296,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1038" y="220" as="sourcePoint" />
             <mxPoint x="1198" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-53" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Community (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;/api/comments&lt;/div&gt;&lt;/div&gt;&lt;div&gt;/api/reputation&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="838" y="920" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-54" value="&lt;div&gt;Community&lt;br&gt;&lt;/div&gt;&lt;div&gt;(DB)&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1158" y="920" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-55" value="" style="endArrow=classic;html=1;strokeColor=#000000;jumpStyle=arc;" edge="1" parent="1" source="zMrTVmKu9lWlm60wVP0q-53" target="zMrTVmKu9lWlm60wVP0q-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1018" y="360" as="sourcePoint" />
+            <mxPoint x="1178" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-56" value="" style="endArrow=classic;html=1;strokeColor=#000000;jumpStyle=arc;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1" source="lUXr_MOfeq3nmSoOQjcQ-8" target="zMrTVmKu9lWlm60wVP0q-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="910" as="sourcePoint" />
+            <mxPoint x="660" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
