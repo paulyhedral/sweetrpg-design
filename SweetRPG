@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T03:44:22.591Z" agent="5.0 (Macintosh)" etag="DpRZOLx_aTPIsHmxPL_B" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T03:44:59.680Z" agent="5.0 (Macintosh)" etag="vMCzAlJkjEwQvU1mPvwf" version="14.8.1" type="github">
   <diagram id="pKZ9d42EIQhx4D3ej5K5" name="Page-1">
     <mxGraphModel dx="2058" dy="2311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,7 +30,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Library (Web)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;/library&lt;br&gt;&lt;/div&gt;&lt;div&gt;/library/volumes&lt;/div&gt;&lt;div&gt;/library/publishers&lt;/div&gt;&lt;div&gt;/library/authors&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
+        <mxCell id="lUXr_MOfeq3nmSoOQjcQ-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Library (Web)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;/library&lt;br&gt;&lt;/div&gt;&lt;div&gt;/library/volumes&lt;/div&gt;&lt;div&gt;/library/publishers&lt;/div&gt;&lt;div&gt;/library/authors&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;/library/studios&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="280" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lUXr_MOfeq3nmSoOQjcQ-9" value="&lt;div style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Directory (web)&lt;/font&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
@@ -92,7 +92,7 @@
         <mxCell id="zMrTVmKu9lWlm60wVP0q-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Profiles (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;/api/profiles&lt;/div&gt;&lt;div&gt;/api/auth/login&lt;/div&gt;&lt;div&gt;/api/auth/token&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="838" y="120" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zMrTVmKu9lWlm60wVP0q-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Library (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;/api/volumes&lt;/div&gt;&lt;div&gt;/api/publishers&lt;/div&gt;&lt;div&gt;/api/authors&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="zMrTVmKu9lWlm60wVP0q-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Library (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;/api/volumes&lt;/div&gt;&lt;div&gt;/api/publishers&lt;/div&gt;&lt;div&gt;/api/authors&lt;br&gt;&lt;/div&gt;&lt;div&gt;/api/studios&lt;br&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="838" y="280" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zMrTVmKu9lWlm60wVP0q-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;GameSystem (API)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;/api/gamesystems&lt;/div&gt;&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
