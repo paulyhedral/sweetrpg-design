@@ -2,5 +2,5 @@
 
 ## Architecture
 
-[Architecture](Architecture.md)
-[Figma](https://www.figma.com/)
+* [Architecture](Architecture.md)
+* [Figma](https://www.figma.com/)
