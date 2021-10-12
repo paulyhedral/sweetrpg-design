@@ -1,0 +1,149 @@
+erdiagram Author
+
+weak entity Auditable {
+    id: string partial-key
+    created_at: datetime
+    created_by: string
+    updated_at: datetime
+    updated_by: string
+    deleted_at: datetime optional
+    deleted_by: string optional
+}
+
+weak entity Property {
+    name: string partial-key
+    kind: string
+    value: string
+}
+
+entity Author extends Auditable {
+    id: string key
+    name: string
+    properties: none multivalued
+}
+
+entity AuthorProperty extends Property {
+    name: string key
+}
+
+relationship AuthorProperties {
+    Author[1] -> AuthorProperty["0..100"]
+}
+
+entity Volume extends Auditable {
+    id: string key
+    name: string
+    slug: string
+}
+
+relationship VolumeAuthor {
+    Volume[N] -> Author[N]
+}
+
+relationship VolumePublisher {
+    Volume[N] -> Publisher[1]
+}
+
+relationship VolumeStudio {
+    Volume[N] -> Studio[N]
+}
+
+entity VolumeProperty extends Property {
+    name: string key
+}
+
+relationship VolumeProperties {
+    Volume[1] -> VolumeProperty[N]
+}
+
+entity Publisher extends Auditable {
+    id: string key
+    name: string
+}
+
+entity PublisherProperty extends Property {
+    name: string key
+}
+
+relationship PublisherProperties {
+    Publisher[1] -> PublisherProperty[N]
+}
+
+entity Review extends Auditable {
+    id: string key
+    title: string
+    text: string
+}
+
+relationship VolumeReview {
+    Volume[1] -> Review[N]
+}
+
+entity Studio extends Auditable {
+    id: string key
+    name: string
+}
+
+entity StudioProperty extends Property {
+    name: string key
+}
+
+relationship StudioProperties {
+    Studio[1] -> StudioProperty[N]
+}
+
+entity System extends Auditable {
+    id: string key
+    name: string
+    slug: string
+}
+
+entity SystemProperty extends Property {
+    name: string key
+}
+
+relationship SystemProperties {
+    System[1] -> SystemProperty[N]
+}
+
+entity Tag extends Auditable {
+    id: string key
+    name: string
+    value: string
+}
+
+relationship AuthorTag {
+    Author[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
+
+relationship SystemTag {
+    System[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
+
+relationship PublisherTag {
+    Publisher[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
+
+relationship StudioTag {
+    Studio[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
+
+relationship ReviewTag {
+    Review[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
+
+relationship VolumeTag {
+    Volume[N] -> Tag["0..100"]
+    created_at: datetime
+    created_by: string
+}
